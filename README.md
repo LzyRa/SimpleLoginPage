@@ -1,4 +1,5 @@
-# SimpleLoginPage
+# Simple Login and Registration Page
+This project is a straightforward implementation of a login and registration system using HTML and CSS.
 
 ## Table of Contents
 

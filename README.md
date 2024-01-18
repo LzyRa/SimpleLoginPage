@@ -30,4 +30,4 @@ In this screenshot, you can see the "Forgot Password" page, accessible via the l
 - **CSS:** Styling is applied using CSS.
 
 ## License
-This project is open-source and is licensed under the MIT License. Feel free to explore, use, and contribute!
+This project is open-source and is licensed under the [MIT License](LICENSE). Feel free to explore, use, and contribute!

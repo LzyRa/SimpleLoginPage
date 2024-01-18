@@ -26,8 +26,8 @@ In this screenshot, you can see the "Forgot Password" page, accessible via the l
 
 ## Technologies used
 
-- **HTML** The structure and content of the pages are built with HTML.
-- **CSS** Styling is applied using CSS.
+- **HTML:** The structure and content of the pages are built with HTML.
+- **CSS:** Styling is applied using CSS.
 
 ## License
 This project is open-source and is licensed under the MIT License. Feel free to explore, use, and contribute!

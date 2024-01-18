@@ -2,4 +2,4 @@
 
 ## Screenshots
 
-![Login Page](screenshots/screenshotLogin.png)
+![Login Page](screenshots/screenshotlogin.png)

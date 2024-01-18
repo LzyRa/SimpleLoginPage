@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+
+    <!--Link to Google material icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+
+    <!--Entire register form div-->
+    <div class="container">
+        <div class="login-form">
+            <h1>REGISTER</h1>
+            <form>
+
+                <!--Email input field with an added icon-->
+                <label for="email">
+                    <i class="material-icons">email</i>
+                </label>
+                <input type="text" id="email" name="email" placeholder="Email" required oninvalid="this.setCustomValidity('Please enter your email!')" oninput="setCustomValidity('')"><br><br>
+
+                <!--Username input field with an added icon-->
+                <label for="username">
+                    <i class="material-icons">person</i>
+                </label>
+                <input type="text" id="text" name="text" placeholder="Username" required oninvalid="this.setCustomValidity('Please enter your username!')" oninput="setCustomValidity('')"><br><br>
+
+                <!--Password input field with an added icon-->
+                <label for="password">
+                    <i class="material-icons">lock</i>                    
+                </label>
+                <input type="password" id="password" name="password" placeholder="Password" required oninvalid="this.setCustomValidity('Please enter your password!')" oninput="setCustomValidity('')"><br>
+                
+                <!--Submit button to sign up-->
+                <input type="submit" id="submit" value="SIGN UP">
+            </form>
+            <p class="login">Already a member? <a href="index.html">Login</a></p>
+        </div>
+    </div>
+</body>
+</html>

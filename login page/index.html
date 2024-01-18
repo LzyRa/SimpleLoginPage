@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--Link to Google material icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+
+    <!--Entire login form div-->
+    <div class="container">
+        <!--Section of the login form-->
+        <div class="login-form">
+            <h1>LOGIN</h1>
+            <form>
+                <!--Username input field with an added icon-->
+                <label for="username">
+                    <i class="material-icons">person</i>
+                </label>
+                <input type="text" id="username" name="username" placeholder="Username" required oninvalid="this.setCustomValidity('Please enter your username!')" oninput="setCustomValidity('')"><br><br>
+                
+                <!--Password input field with an added icon-->
+                <label for="password">
+                    <i class="material-icons">lock</i>                    
+                </label>
+                <input type="password" id="password" name="password" placeholder="Password" required oninvalid="this.setCustomValidity('Please enter your password!')" oninput="setCustomValidity('')"><br>
+                
+                <!--Link to "Forgot password" page-->
+                <a href="forgot_password.html">Forgot password?</a><br><br>
+
+                <!--Submit button to sign in-->
+                <input type="submit" id="submit" value="SIGN IN">
+            </form>
+
+            <!--Link to "register" page-->
+            <p class="register">Not a member? <a href="register.html">Sign up now</a></p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(website-background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1 {
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.container {
+    position: relative;
+    
+}
+
+.login-form {
+    background-color: #2c3338;
+    box-shadow: 2px 2px 2px;
+    padding: 50px;
+}
+
+.login-form input {
+    background-color: #434a52;
+    width: auto;
+    padding: 15px;
+    border: none;
+}
+
+.login-form ::placeholder {
+    font-size: 15px;
+}
+
+#submit {
+    color: #eee;
+    background-color: #d44179;
+    width: 100%;
+}
+
+#submit:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px #363b41;
+}
+
+.login-form a {
+    position: absolute;
+    text-decoration: none;
+    padding-top: 7px;
+    margin-left: 3px;
+    color: #eee;
+}
+
+.login-form label {
+  padding: 14px;
+
+}
+
+.material-icons {
+  display: inline-block;
+  color: #606468;;
+  vertical-align: middle;
+}
+
+
+
+.login-form label {
+    background-color: #363b41;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    padding-left: 20px;
+    padding-left: 1.25rem;
+    padding-right: 20px;
+    padding-right: 1.25rem;
+  }
+
+.register {
+    color: #606468;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.register a {
+    position: relative;
+    color: #eee;
+}
+
+@media (max-width: 768px) {
+    .login-form {
+        padding: 30px;
+    }
+
+    .login-form label,
+    .login-form input {
+        padding: 10px;
+    }
+}

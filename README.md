@@ -1,5 +1,12 @@
 # SimpleLoginPage
 
+## Table of Contents
+
+- [Description](#description)
+- [Screenshots](#screenshots)
+- [License](#license)
+
+
 ## Screenshots
 
 ![Login Page](screenshots/screenshotlogin.png)
